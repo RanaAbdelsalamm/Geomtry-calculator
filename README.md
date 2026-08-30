@@ -4,7 +4,7 @@ A simple and interactive web application built with HTML, CSS, and JavaScript to
 
 ## 🚀 Live Demo
 You can check out the live version of the project here: 
-👉 [Live Website Link]https://ranaabdelsalamm.github.io/Geomtry-calculator/
+👉 https://ranaabdelsalamm.github.io/Geomtry-calculator/
 
 ## 🛠️ Built With
 * **HTML5** - Structure of the web pages.
