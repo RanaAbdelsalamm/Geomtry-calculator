@@ -3,7 +3,8 @@
 A simple and interactive web application built with HTML, CSS, and JavaScript to perform various geometry calculations easily.
 
 ## 🚀 Live Demo
-You can check out the live version of the project here: 
+You can check out the live version of the project here:
+
 👉 https://ranaabdelsalamm.github.io/Geomtry-calculator/
 
 ## 🛠️ Built With
