@@ -46,6 +46,14 @@ function showInputs(shape) {
 
     inputsSection.innerHTML = html;
     document.getElementById('resultSection').innerHTML = '';
+    
+    
+    setTimeout(() => {
+        inputsSection.scrollIntoView({ 
+            behavior: 'smooth',
+            block: 'center'
+        });
+    }, 100);
 }
 
 function calculateSquare() {
