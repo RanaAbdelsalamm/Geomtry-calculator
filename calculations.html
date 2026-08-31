@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Choose Shape To Calculate</h1>
+    </header>
+    <main>
+        <div class="calculator-container">
+            <div class="square">
+                <img src="assets/square.png" alt="Square" width="200">
+                <div class="square-button">
+                <button onclick="showInputs('square')">Square</button>
+                </div>
+            </div>
+            <div class="rectangle">
+                <img src="assets/rectangle.png" alt="Rectangle" width="200">
+                <div class="rectangle-button">
+                <button onclick="showInputs('rectangle')">Rectangle</button>
+                </div>
+            </div>
+            <div class="triangle">
+                <img src="assets/triangle.png" alt="Triangle" width="200">
+                <div class="triangle">
+                <button onclick="showInputs('triangle')">Triangle</button>
+                </div>
+            </div>
+            <div class="circle">
+                <img src="assets/circle.png" alt="Circle" width="200">
+                <div class="circle-button">
+                <button onclick="showInputs('circle')">Circle</button>
+                </div>
+            </div>
+            <div class="cube">
+                <img src="assets/cube.png" alt="Cube" width="200">
+                <div class="cube-button">
+                <button onclick="showInputs('cube')">Cube</button>
+                </div>
+            </div>
+        </div>
+        <section id="inputsSection">
+        </section>
+        <section id="resultSection">
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 CalcuShape. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
